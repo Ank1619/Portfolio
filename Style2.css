@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(2, 2, 88);
+    color: white;
+    font-family: "Poppins";
+    background-repeat: no-repeat;
+    background-size: 1143px 588px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(3, 3, 75);
+    height: 60px;
+}
+
+nav ul{
+   list-style-type: none;
+   display: flex;
+   gap: 30px;
+   font-size: 0.9rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 1.02rem;
+    color: rgb(130, 130, 245);
+}
+
+main{
+    max-width: 70vw;
+    margin: auto;
+}
+.certificates h1{
+    margin-top: 40px;
+    color: rgb(254, 144, 181);
+}
+.course{
+    margin-top: 40px;
+    text-decoration-line: underline;
+    font-size: large;
+    color: antiquewhite;
+}
+.gallery img{
+    height: 200px;
+}
+.con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Create responsive columns */
+    gap: 46px; 
+    justify-items: center; 
+    margin-top: 20px;
+}
+.con div{
+    text-align: center;
+    font-size: small;
+    text-decoration-line: none;
+}
+.con a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.con a:hover{
+    color: rgb(114, 114, 238);
+}
+
+hr{
+    max-width: 90vw;
+    border: 1px solid rgb(141, 100, 223);
+    margin: auto;
+    background-color: rgb(70, 70, 187);
+    margin-top: 50px;
+}

@@ -1,0 +1,46 @@
+.maincontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rightcontent img{
+    height: 600px;
+}
+
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+}
+.leftcontenthead{
+    color: #d5bdeb;
+    font-size: xx-large;
+    font-weight: 600;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    margin: 15px 0px;
+    padding: 0px 6px;
+}
+textarea{
+    height: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btn1{
+    height: 32px;
+    width: 90px;
+    margin: 20px 0px;
+    border-radius: 26px;
+    text-align: center;
+    padding: 5px;
+    background-color: #9b4fe2;
+    color: white;
+    font-size: medium;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(168, 97, 235);
+}

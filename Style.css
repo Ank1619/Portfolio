@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(2, 2, 88);
+    color: white;
+    font-family: "Poppins";
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(3, 3, 75);
+    height: 60px;
+}
+
+nav ul{
+   list-style-type: none;
+   display: flex;
+   gap: 30px;
+   font-size: 0.9rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    align-items: center;
+}
+.content{
+    font-size: 2.5rem;
+}
+.content span{
+    color: rgb(111, 111, 248);
+    font-weight: 600;
+}
+.profile img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 1.02rem;
+    color: rgb(130, 130, 245);
+}
+.btn{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #3a155c;
+    color: white;
+}
+.btn:hover{
+    height: 50px;
+    width: 90px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    max-width: 90vw;
+    border: 1px solid rgb(141, 100, 223);
+    margin: auto;
+    background-color: rgb(70, 70, 187);
+    margin-top: 110px;
+}
+.secondsection{
+    max-width: 90vw;
+    margin: auto;
+
+}
+.Journey{
+    margin-top: 20px;
+
+}
+.Journey h1{
+    margin-left: 20px;
+}
+nav ul li a:active {
+    color: blue;
+    text-decoration: underline;
+}
+
+.roadmap-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* Roadmap line styles */
+.roadmap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Milestone circle and label styles */
+.milestone {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4px 0;
+}
+
+/* Circle representing milestones */
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+/* Connecting lines between milestones */
+.milestone::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #4CAF50;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+/* Avoid line for the last milestone */
+.milestone-5::before {
+    display: none;
+}
+
+/* Label text below each milestone */
+.label {
+    margin-top: 70px;
+    font-size: 16px;
+    color: #2f2ff6;
+    margin-left: 220px;
+}
+.roadmap a{
+    text-decoration: none;
+    color: rgb(202, 202, 247);
+}
+.roadmap span{
+    font-size: small;
+    margin-left: 220px;
+}
+.detabox{
+    display: flex;
+    flex-direction: column;
+}
+
+.roadmap a:hover{
+   text-decoration-line: underline;
+   color: #2f2ff6;
+}

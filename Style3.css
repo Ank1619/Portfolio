@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(2, 2, 88);
+    color: white;
+    font-family: "Poppins";
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(3, 3, 75);
+    height: 60px;
+}
+
+nav ul{
+   list-style-type: none;
+   display: flex;
+   gap: 30px;
+   font-size: 0.9rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 1.02rem;
+    color: rgb(130, 130, 245);
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 70px;
+}
+.rightsection img{
+    border: 20px solid #0c2087;
+    border-radius: 50%;
+}
+.leftsection{
+    width: 500px;
+}
+.content{
+    text-align: justify;
+    margin: 10px 0px;
+}
+.leftsection h1{
+    color: #a2a2ef;
+    text-decoration-line: underline;
+}
+.social a img{
+    height: 30px;
+    margin: 10px;
+}
+.social a img:hover{
+    height: 50px;
+}
+hr{
+    max-width: 90vw;
+    border: 1px solid rgb(141, 100, 223);
+    margin: auto;
+    background-color: rgb(70, 70, 187);
+    margin-top: 110px;
+}
+.gallery img{
+    height: 200px;
+}
+
+.second{
+    
+    max-width: 80vw;
+    margin: auto;
+}
+.con{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Create responsive columns */
+    gap: 46px; 
+    justify-items: center; 
+    margin-top: 20px;
+}
+h1{
+    max-width: 80vw;
+    margin: auto;
+}

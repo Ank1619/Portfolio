@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit-Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Certificates.html">Certificates</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <div class="firstsection">
+        <div class="content">
+            <div>Hello, My Name is <span>Ankit</span></div>
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+            <div class="button">
+                <button class="btn"><a href="Resume.pdf" download>Resume</a></button>
+                <button class="btn">GitHub</button>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="Ankit.png" alt="">
+        </div>
+       </div>
+       <hr>
+       <div class="secondsection">
+        <div class="Journey">
+            <h1>My Journey</h1>
+            <div class="roadmap-container">
+                <div class="roadmap">
+                    <div class="milestone milestone-1">
+                        <div class="circle">1</div>
+                        <div class="detabox">
+                            <div class="label">10<sup>th</sup> (Higher Secondary)</div>
+                            <span><a href="http://davmoonidih.in/">D.A.V Public School, Moonidih</a></span>
+                            <span>Dhanbad,Jharkhand</span>
+                            <span>CBSE-2019 (83%)</span>
+                        </div>
+                    </div>
+                    <div class="milestone milestone-2">
+                        <div class="circle">2</div>
+                        <div class="detabox">
+                            <div class="label">12<sup>th</sup> (Senior Secondary)</div>
+                        <span><a href="https://rsvm.in/">Rajkamal Sarswati Vidya Mandir</a></span>
+                        <span>Dhanbad,Jharkhand</span>
+                        <span>CBSE-2021 (73%)</span>
+                        </div>
+                    </div>
+                    <div class="milestone milestone-3">
+                        <div class="circle">3</div>
+                        <div class="detabox">
+                            <div class="label">Graduation (UG)</div>
+                        <span><a href="https://bvp.bharatividyapeeth.edu/index.php/college-of-engineering-pune">BV(DU) College of Engineering</a></span>
+                        <span>Pune,Maharastra</span>
+                        <span>2021-2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.','UI/UX Developer.','JAVA Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
